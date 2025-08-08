@@ -108,12 +108,6 @@ const charities = [
     keywords: ["donate", "global", "community", "support", "nonprofit"]
   },
   {
-    name: "The Trevor Project",
-    description: "Provides suicide prevention and crisis intervention services to LGBTQ youth.",
-    website: "https://www.thetrevorproject.org",
-    keywords: ["LGBTQ", "youth", "suicide prevention", "support", "mental health"]
-  },
-  {
     name: "National Audubon Society",
     description: "Works to protect birds and their habitats throughout the Americas.",
     website: "https://www.audubon.org",
@@ -522,12 +516,6 @@ const charities = [
     keywords: ["Alzheimer's", "dementia", "research", "health", "support"]
   },
   {
-    name: "The Trevor Project",
-    description: "Provides crisis intervention and suicide prevention services to LGBTQ young people.",
-    website: "https://www.thetrevorproject.org",
-    keywords: ["LGBTQ", "youth", "suicide prevention", "mental health", "crisis"]
-  },
-  {
     name: "Covenant House",
     description: "Provides shelter and care for homeless, runaway, and trafficked young people.",
     website: "https://www.covenanthouse.org",
@@ -838,12 +826,6 @@ const charities = [
     description: "Global voluntary health organization in Alzheimer's care, support and research.",
     website: "https://www.alz.org",
     keywords: ["Alzheimer's", "dementia", "research", "health", "support"]
-  },
-  {
-    name: "The Trevor Project",
-    description: "Provides crisis intervention and suicide prevention services to LGBTQ young people.",
-    website: "https://www.thetrevorproject.org",
-    keywords: ["LGBTQ", "youth", "suicide prevention", "mental health", "crisis"]
   },
   {
     name: "Covenant House",
@@ -4482,12 +4464,6 @@ const charities = [
     keywords: ["education", "schools", "children", "global", "poverty"]
   },
   {
-    name: "The Trevor Project",
-    description: "Provides suicide prevention and crisis intervention services to LGBTQ youth.",
-    website: "https://www.thetrevorproject.org",
-    keywords: ["LGBTQ", "youth", "suicide prevention", "support", "mental health"]
-  },
-  {
     name: "International Rescue Committee",
     description: "Provides humanitarian aid and development assistance to refugees and displaced persons.",
     website: "https://www.rescue.org",
@@ -5370,24 +5346,6 @@ const charities = [
     keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
-  },
-  {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
-  },
-  {
     name: "The Transgender Law Center",
     description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
     website: "https://www.transgenderlawcenter.org",
@@ -5530,12 +5488,6 @@ const charities = [
     description: "Grants wishes to children with critical illnesses to enrich the human experience with hope, strength and joy.",
     website: "https://www.wish.org",
     keywords: ["children", "wish", "disease", "cancer", "hope"]
-  },
-  {
-    name: "The Trevor Project",
-    description: "The leading national organization providing crisis intervention and suicide prevention services to lesbian, gay, bisexual, transgender, queer & questioning (LGBTQ) young people under 25.",
-    website: "https://www.thetrevorproject.org",
-    keywords: ["LGBTQ+", "youth", "suicide prevention", "support", "mental health"]
   },
   {
     name: "The National Organization for Women (NOW) Foundation",
@@ -5730,22 +5682,250 @@ const charities = [
     keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
+    name: "The Transgender Law Center",
+    description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
+    website: "https://www.transgenderlawcenter.org",
+    keywords: ["transgender", "legal", "advocacy", "rights", "justice"]
   },
   {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
+    name: "The American Association of University Women (AAUW)",
+    description: "Advances equity for women and girls through advocacy, education, and research.",
+    website: "https://www.aauw.org",
+    keywords: ["women", "girls", "equity", "education", "advocacy"]
   },
   {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
+    name: "The National Organization for Women (NOW) Foundation",
+    description: "A feminist organization that promotes equal rights and opportunities for women.",
+    website: "https://now.org",
+    keywords: ["women", "feminist", "equality", "rights", "advocacy"]
+  },
+  {
+    name: "The Feminist Majority Foundation",
+    description: "Dedicated to women's equality, reproductive health, and non-violence.",
+    website: "https://feminist.org",
+    keywords: ["women's rights", "equality", "feminist", "health", "advocacy"]
+  },
+  {
+    name: "The Ms. Foundation for Women",
+    description: "A national foundation that invests in and strengthens the power of women of color and their communities.",
+    website: "https://forwomen.org",
+    keywords: ["women", "women of color", "foundation", "empowerment", "equity"]
+  },
+  {
+    name: "The Malala Fund",
+    description: "Works for a world where every girl can learn and lead.",
+    website: "https://www.malala.org",
+    keywords: ["girls", "education", "leadership", "equality", "global"]
+  },
+  {
+    name: "The Women's Sports Foundation",
+    description: "Dedicated to advancing the lives of girls and women through sports and physical activity.",
+    website: "https://www.womenssportsfoundation.org",
+    keywords: ["women", "sports", "girls", "equality", "physical activity"]
+  },
+  {
+    name: "The Breast Cancer Research Foundation",
+    description: "The largest private funder of breast cancer research worldwide.",
+    website: "https://www.bcrf.org",
+    keywords: ["cancer", "breast cancer", "research", "health", "funding"]
+  },
+  {
+    name: "The Prostate Cancer Foundation",
+    description: "Dedicated to curing prostate cancer through an investment in scientific research.",
+    website: "https://www.pcf.org",
+    keywords: ["cancer", "prostate", "research", "health", "funding"]
+  },
+  {
+    name: "The Multiple Myeloma Research Foundation",
+    description: "Focused on accelerating a cure for multiple myeloma, a rare form of blood cancer.",
+    website: "https://themmrf.org",
+    keywords: ["cancer", "myeloma", "research", "health", "blood cancer"]
+  },
+  {
+    name: "The American Brain Tumor Association",
+    description: "Dedicated to advancing the understanding and treatment of brain tumors.",
+    website: "https://www.abta.org",
+    keywords: ["brain", "tumor", "research", "treatment", "health"]
+  },
+  {
+    name: "The Children's Heart Foundation",
+    description: "Dedicated to funding the most promising research to advance the diagnosis, treatment, and prevention of congenital heart defects.",
+    website: "https://www.childrensheartfoundation.org",
+    keywords: ["children", "heart", "health", "research", "congenital"]
+  },
+  {
+    name: "The ALS Association",
+    description: "Funds research and provides care services for people living with Lou Gehrig's disease.",
+    website: "https://www.als.org",
+    keywords: ["ALS", "Lou Gehrig's", "health", "research", "support"]
+  },
+  {
+    name: "The Lymphoma Research Foundation",
+    description: "Dedicated to finding a cure for lymphoma and providing support to patients.",
+    website: "https://www.lymphoma.org",
+    keywords: ["lymphoma", "cancer", "research", "health", "support"]
+  },
+  {
+    name: "The National Ataxia Foundation",
+    description: "A national organization dedicated to improving the lives of people affected by ataxia.",
+    website: "https://www.ataxia.org",
+    keywords: ["ataxia", "health", "neurology", "support", "research"]
+  },
+  {
+    name: "The Scleroderma Foundation",
+    description: "Dedicated to providing support, education, and research for those affected by scleroderma.",
+    website: "https://www.scleroderma.org",
+    keywords: ["scleroderma", "health", "research", "support", "autoimmune"]
+  },
+  {
+    name: "The Alzheimer's Foundation of America",
+    description: "Provides support, services, and education to individuals, families, and caregivers affected by Alzheimer's disease.",
+    website: "https://alzfdn.org",
+    keywords: ["Alzheimer's", "dementia", "support", "education", "caregivers"]
+  },
+  {
+    name: "The Huntington's Disease Society of America",
+    description: "The largest non-profit organization dedicated to improving the lives of everyone affected by Huntington's disease.",
+    website: "https://hdsa.org",
+    keywords: ["Huntington's", "health", "neurology", "disease", "support"]
+  },
+  {
+    name: "The Myasthenia Gravis Foundation of America",
+    description: "Dedicated to finding a cure for myasthenia gravis and related autoimmune diseases.",
+    website: "https://myasthenia.org",
+    keywords: ["myasthenia gravis", "autoimmune", "research", "health", "cure"]
+  },
+  {
+    name: "The National Down Syndrome Society",
+    description: "A leading human rights organization for all people with Down syndrome.",
+    website: "https://www.ndss.org",
+    keywords: ["Down syndrome", "human rights", "advocacy", "support", "education"]
+  },
+  {
+    name: "The Autism Society",
+    description: "Provides support and education to individuals with autism and their families.",
+    website: "https://www.autism-society.org",
+    keywords: ["autism", "support", "education", "families", "advocacy"]
+  },
+  {
+    name: "The National Organization for Rare Disorders (NORD)",
+    description: "Dedicated to helping people with rare diseases through education, advocacy, and research.",
+    website: "https://rarediseases.org",
+    keywords: ["rare diseases", "research", "advocacy", "education", "health"]
+  },
+  {
+    name: "The American Kidney Fund",
+    description: "Helps people fight kidney disease and live healthier lives.",
+    website: "https://www.kidneyfund.org",
+    keywords: ["kidney", "health", "disease", "support", "finance"]
+  },
+  {
+    name: "The Michael J. Fox Foundation for Parkinson's Research",
+    description: "Works to accelerate the development of a cure for Parkinson's disease.",
+    website: "https://www.michaeljfox.org",
+    keywords: ["Parkinson's", "research", "cure", "health", "neurology"]
+  },
+  {
+    name: "The National Brain Tumor Society",
+    description: "Drives research and public policy for the brain tumor community.",
+    website: "https://braintumor.org",
+    keywords: ["brain", "tumor", "research", "policy", "advocacy"]
+  },
+  {
+    name: "The Alzheimer's Drug Discovery Foundation",
+    description: "Supports research to find drugs to prevent, treat, and cure Alzheimer's disease.",
+    website: "https://www.alzdiscovery.org",
+    keywords: ["Alzheimer's", "research", "drugs", "cure", "prevention"]
+  },
+  {
+    name: "The American Porphyria Foundation",
+    description: "Dedicated to the diagnosis, treatment, and cure of porphyria.",
+    website: "https://porphyriafoundation.org",
+    keywords: ["porphyria", "health", "disease", "treatment", "cure"]
+  },
+  {
+    name: "The National Hemophilia Foundation",
+    description: "Finds cures for bleeding disorders and to prevent the complications of these disorders through research.",
+    website: "https://www.hemophilia.org",
+    keywords: ["hemophilia", "bleeding", "health", "disease", "research"]
+  },
+  {
+    name: "The American Autoimmune Related Diseases Association",
+    description: "Dedicated to the eradication of autoimmune diseases and the alleviation of suffering and the socioeconomic impact of autoimmunity.",
+    website: "https://www.aarda.org",
+    keywords: ["autoimmune", "disease", "research", "health", "advocacy"]
+  },
+  {
+    name: "The American Civil Liberties Union (ACLU)",
+    description: "Defends and preserves the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States.",
+    website: "https://www.aclu.org",
+    keywords: ["civil rights", "liberties", "defense", "advocacy", "justice"]
+  },
+  {
+    name: "Amnesty International",
+    description: "A global movement of more than 10 million people in more than 150 countries and territories who campaign to end grave abuses of human rights.",
+    website: "https://www.amnesty.org",
+    keywords: ["human rights", "justice", "advocacy", "global", "peace"]
+  },
+  {
+    name: "Human Rights Watch",
+    description: "Investigates and reports on abuses happening in all corners of the world.",
+    website: "https://www.hrw.org",
+    keywords: ["human rights", "justice", "abuse", "investigation", "global"]
+  },
+  {
+    name: "The NAACP Legal Defense and Educational Fund",
+    description: "America's premier legal organization fighting for racial justice.",
+    website: "https://www.naacpldf.org",
+    keywords: ["racial justice", "legal", "education", "civil rights", "advocacy"]
+  },
+  {
+    name: "The Southern Poverty Law Center",
+    description: "A catalyst for racial justice in the South and beyond, working to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people.",
+    website: "https://www.splcenter.org",
+    keywords: ["racial justice", "poverty", "law", "advocacy", "human rights"]
+  },
+  {
+    name: "The Anti-Defamation League (ADL)",
+    description: "A leading anti-hate organization that fights antisemitism and all forms of hate.",
+    website: "https://www.adl.org",
+    keywords: ["hate", "antisemitism", "advocacy", "civil rights", "justice"]
+  },
+  {
+    name: "The National Urban League",
+    description: "Dedicated to economic empowerment, equality, and social justice for African Americans and others in underserved communities.",
+    website: "https://www.urbanleague.org",
+    keywords: ["economic", "equality", "social justice", "African American", "community"]
+  },
+  {
+    name: "The Innocence Project",
+    description: "Exonerates the wrongly convicted through DNA testing and reforms the criminal justice system to prevent future injustice.",
+    website: "https://www.innocenceproject.org",
+    keywords: ["justice", "DNA", "wrongful conviction", "legal", "reform"]
+  },
+  {
+    name: "The Equal Justice Initiative",
+    description: "Committed to ending mass incarceration and excessive punishment in the United States, to challenging racial and economic injustice, and to protecting basic human rights for the most vulnerable people in American society.",
+    website: "https://eji.org",
+    keywords: ["justice", "incarceration", "racial justice", "human rights", "advocacy"]
+  },
+  {
+    name: "The Thurgood Marshall College Fund",
+    description: "Supports and represents students attending Historically Black Colleges and Universities (HBCUs) and Predominantly Black Institutions (PBIs).",
+    website: "https://www.tmcf.org",
+    keywords: ["HBCU", "education", "college", "students", "black"]
+  },
+  {
+    name: "The Legal Aid Society",
+    description: "The nation's oldest and largest not-for-profit legal aid organization.",
+    website: "https://www.legalaidnyc.org",
+    keywords: ["legal", "aid", "justice", "nonprofit", "law"]
+  },
+  {
+    name: "The Brennan Center for Justice",
+    description: "A nonpartisan law and policy institute that works to improve the systems of democracy and justice in the United States.",
+    website: "https://www.brennancenter.org",
+    keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
     name: "The Transgender Law Center",
@@ -5994,22 +6174,250 @@ const charities = [
     keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
+    name: "The Transgender Law Center",
+    description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
+    website: "https://www.transgenderlawcenter.org",
+    keywords: ["transgender", "legal", "advocacy", "rights", "justice"]
   },
   {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
+    name: "The American Association of University Women (AAUW)",
+    description: "Advances equity for women and girls through advocacy, education, and research.",
+    website: "https://www.aauw.org",
+    keywords: ["women", "girls", "equity", "education", "advocacy"]
   },
   {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
+    name: "The National Organization for Women (NOW) Foundation",
+    description: "A feminist organization that promotes equal rights and opportunities for women.",
+    website: "https://now.org",
+    keywords: ["women", "feminist", "equality", "rights", "advocacy"]
+  },
+  {
+    name: "The Feminist Majority Foundation",
+    description: "Dedicated to women's equality, reproductive health, and non-violence.",
+    website: "https://feminist.org",
+    keywords: ["women's rights", "equality", "feminist", "health", "advocacy"]
+  },
+  {
+    name: "The Ms. Foundation for Women",
+    description: "A national foundation that invests in and strengthens the power of women of color and their communities.",
+    website: "https://forwomen.org",
+    keywords: ["women", "women of color", "foundation", "empowerment", "equity"]
+  },
+  {
+    name: "The Malala Fund",
+    description: "Works for a world where every girl can learn and lead.",
+    website: "https://www.malala.org",
+    keywords: ["girls", "education", "leadership", "equality", "global"]
+  },
+  {
+    name: "The Women's Sports Foundation",
+    description: "Dedicated to advancing the lives of girls and women through sports and physical activity.",
+    website: "https://www.womenssportsfoundation.org",
+    keywords: ["women", "sports", "girls", "equality", "physical activity"]
+  },
+  {
+    name: "The Breast Cancer Research Foundation",
+    description: "The largest private funder of breast cancer research worldwide.",
+    website: "https://www.bcrf.org",
+    keywords: ["cancer", "breast cancer", "research", "health", "funding"]
+  },
+  {
+    name: "The Prostate Cancer Foundation",
+    description: "Dedicated to curing prostate cancer through an investment in scientific research.",
+    website: "https://www.pcf.org",
+    keywords: ["cancer", "prostate", "research", "health", "funding"]
+  },
+  {
+    name: "The Multiple Myeloma Research Foundation",
+    description: "Focused on accelerating a cure for multiple myeloma, a rare form of blood cancer.",
+    website: "https://themmrf.org",
+    keywords: ["cancer", "myeloma", "research", "health", "blood cancer"]
+  },
+  {
+    name: "The American Brain Tumor Association",
+    description: "Dedicated to advancing the understanding and treatment of brain tumors.",
+    website: "https://www.abta.org",
+    keywords: ["brain", "tumor", "research", "treatment", "health"]
+  },
+  {
+    name: "The Children's Heart Foundation",
+    description: "Dedicated to funding the most promising research to advance the diagnosis, treatment, and prevention of congenital heart defects.",
+    website: "https://www.childrensheartfoundation.org",
+    keywords: ["children", "heart", "health", "research", "congenital"]
+  },
+  {
+    name: "The ALS Association",
+    description: "Funds research and provides care services for people living with Lou Gehrig's disease.",
+    website: "https://www.als.org",
+    keywords: ["ALS", "Lou Gehrig's", "health", "research", "support"]
+  },
+  {
+    name: "The Lymphoma Research Foundation",
+    description: "Dedicated to finding a cure for lymphoma and providing support to patients.",
+    website: "https://www.lymphoma.org",
+    keywords: ["lymphoma", "cancer", "research", "health", "support"]
+  },
+  {
+    name: "The National Ataxia Foundation",
+    description: "A national organization dedicated to improving the lives of people affected by ataxia.",
+    website: "https://www.ataxia.org",
+    keywords: ["ataxia", "health", "neurology", "support", "research"]
+  },
+  {
+    name: "The Scleroderma Foundation",
+    description: "Dedicated to providing support, education, and research for those affected by scleroderma.",
+    website: "https://www.scleroderma.org",
+    keywords: ["scleroderma", "health", "research", "support", "autoimmune"]
+  },
+  {
+    name: "The Alzheimer's Foundation of America",
+    description: "Provides support, services, and education to individuals, families, and caregivers affected by Alzheimer's disease.",
+    website: "https://alzfdn.org",
+    keywords: ["Alzheimer's", "dementia", "support", "education", "caregivers"]
+  },
+  {
+    name: "The Huntington's Disease Society of America",
+    description: "The largest non-profit organization dedicated to improving the lives of everyone affected by Huntington's disease.",
+    website: "https://hdsa.org",
+    keywords: ["Huntington's", "health", "neurology", "disease", "support"]
+  },
+  {
+    name: "The Myasthenia Gravis Foundation of America",
+    description: "Dedicated to finding a cure for myasthenia gravis and related autoimmune diseases.",
+    website: "https://myasthenia.org",
+    keywords: ["myasthenia gravis", "autoimmune", "research", "health", "cure"]
+  },
+  {
+    name: "The National Down Syndrome Society",
+    description: "A leading human rights organization for all people with Down syndrome.",
+    website: "https://www.ndss.org",
+    keywords: ["Down syndrome", "human rights", "advocacy", "support", "education"]
+  },
+  {
+    name: "The Autism Society",
+    description: "Provides support and education to individuals with autism and their families.",
+    website: "https://www.autism-society.org",
+    keywords: ["autism", "support", "education", "families", "advocacy"]
+  },
+  {
+    name: "The National Organization for Rare Disorders (NORD)",
+    description: "Dedicated to helping people with rare diseases through education, advocacy, and research.",
+    website: "https://rarediseases.org",
+    keywords: ["rare diseases", "research", "advocacy", "education", "health"]
+  },
+  {
+    name: "The American Kidney Fund",
+    description: "Helps people fight kidney disease and live healthier lives.",
+    website: "https://www.kidneyfund.org",
+    keywords: ["kidney", "health", "disease", "support", "finance"]
+  },
+  {
+    name: "The Michael J. Fox Foundation for Parkinson's Research",
+    description: "Works to accelerate the development of a cure for Parkinson's disease.",
+    website: "https://www.michaeljfox.org",
+    keywords: ["Parkinson's", "research", "cure", "health", "neurology"]
+  },
+  {
+    name: "The National Brain Tumor Society",
+    description: "Drives research and public policy for the brain tumor community.",
+    website: "https://braintumor.org",
+    keywords: ["brain", "tumor", "research", "policy", "advocacy"]
+  },
+  {
+    name: "The Alzheimer's Drug Discovery Foundation",
+    description: "Supports research to find drugs to prevent, treat, and cure Alzheimer's disease.",
+    website: "https://www.alzdiscovery.org",
+    keywords: ["Alzheimer's", "research", "drugs", "cure", "prevention"]
+  },
+  {
+    name: "The American Porphyria Foundation",
+    description: "Dedicated to the diagnosis, treatment, and cure of porphyria.",
+    website: "https://porphyriafoundation.org",
+    keywords: ["porphyria", "health", "disease", "treatment", "cure"]
+  },
+  {
+    name: "The National Hemophilia Foundation",
+    description: "Finds cures for bleeding disorders and to prevent the complications of these disorders through research.",
+    website: "https://www.hemophilia.org",
+    keywords: ["hemophilia", "bleeding", "health", "disease", "research"]
+  },
+  {
+    name: "The American Autoimmune Related Diseases Association",
+    description: "Dedicated to the eradication of autoimmune diseases and the alleviation of suffering and the socioeconomic impact of autoimmunity.",
+    website: "https://www.aarda.org",
+    keywords: ["autoimmune", "disease", "research", "health", "advocacy"]
+  },
+  {
+    name: "The American Civil Liberties Union (ACLU)",
+    description: "Defends and preserves the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States.",
+    website: "https://www.aclu.org",
+    keywords: ["civil rights", "liberties", "defense", "advocacy", "justice"]
+  },
+  {
+    name: "Amnesty International",
+    description: "A global movement of more than 10 million people in more than 150 countries and territories who campaign to end grave abuses of human rights.",
+    website: "https://www.amnesty.org",
+    keywords: ["human rights", "justice", "advocacy", "global", "peace"]
+  },
+  {
+    name: "Human Rights Watch",
+    description: "Investigates and reports on abuses happening in all corners of the world.",
+    website: "https://www.hrw.org",
+    keywords: ["human rights", "justice", "abuse", "investigation", "global"]
+  },
+  {
+    name: "The NAACP Legal Defense and Educational Fund",
+    description: "America's premier legal organization fighting for racial justice.",
+    website: "https://www.naacpldf.org",
+    keywords: ["racial justice", "legal", "education", "civil rights", "advocacy"]
+  },
+  {
+    name: "The Southern Poverty Law Center",
+    description: "A catalyst for racial justice in the South and beyond, working to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people.",
+    website: "https://www.splcenter.org",
+    keywords: ["racial justice", "poverty", "law", "advocacy", "human rights"]
+  },
+  {
+    name: "The Anti-Defamation League (ADL)",
+    description: "A leading anti-hate organization that fights antisemitism and all forms of hate.",
+    website: "https://www.adl.org",
+    keywords: ["hate", "antisemitism", "advocacy", "civil rights", "justice"]
+  },
+  {
+    name: "The National Urban League",
+    description: "Dedicated to economic empowerment, equality, and social justice for African Americans and others in underserved communities.",
+    website: "https://www.urbanleague.org",
+    keywords: ["economic", "equality", "social justice", "African American", "community"]
+  },
+  {
+    name: "The Innocence Project",
+    description: "Exonerates the wrongly convicted through DNA testing and reforms the criminal justice system to prevent future injustice.",
+    website: "https://www.innocenceproject.org",
+    keywords: ["justice", "DNA", "wrongful conviction", "legal", "reform"]
+  },
+  {
+    name: "The Equal Justice Initiative",
+    description: "Committed to ending mass incarceration and excessive punishment in the United States, to challenging racial and economic injustice, and to protecting basic human rights for the most vulnerable people in American society.",
+    website: "https://eji.org",
+    keywords: ["justice", "incarceration", "racial justice", "human rights", "advocacy"]
+  },
+  {
+    name: "The Thurgood Marshall College Fund",
+    description: "Supports and represents students attending Historically Black Colleges and Universities (HBCUs) and Predominantly Black Institutions (PBIs).",
+    website: "https://www.tmcf.org",
+    keywords: ["HBCU", "education", "college", "students", "black"]
+  },
+  {
+    name: "The Legal Aid Society",
+    description: "The nation's oldest and largest not-for-profit legal aid organization.",
+    website: "https://www.legalaidnyc.org",
+    keywords: ["legal", "aid", "justice", "nonprofit", "law"]
+  },
+  {
+    name: "The Brennan Center for Justice",
+    description: "A nonpartisan law and policy institute that works to improve the systems of democracy and justice in the United States.",
+    website: "https://www.brennancenter.org",
+    keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
     name: "The Transgender Law Center",
@@ -6258,22 +6666,250 @@ const charities = [
     keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
+    name: "The Transgender Law Center",
+    description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
+    website: "https://www.transgenderlawcenter.org",
+    keywords: ["transgender", "legal", "advocacy", "rights", "justice"]
   },
   {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
+    name: "The American Association of University Women (AAUW)",
+    description: "Advances equity for women and girls through advocacy, education, and research.",
+    website: "https://www.aauw.org",
+    keywords: ["women", "girls", "equity", "education", "advocacy"]
   },
   {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
+    name: "The National Organization for Women (NOW) Foundation",
+    description: "A feminist organization that promotes equal rights and opportunities for women.",
+    website: "https://now.org",
+    keywords: ["women", "feminist", "equality", "rights", "advocacy"]
+  },
+  {
+    name: "The Feminist Majority Foundation",
+    description: "Dedicated to women's equality, reproductive health, and non-violence.",
+    website: "https://feminist.org",
+    keywords: ["women's rights", "equality", "feminist", "health", "advocacy"]
+  },
+  {
+    name: "The Ms. Foundation for Women",
+    description: "A national foundation that invests in and strengthens the power of women of color and their communities.",
+    website: "https://forwomen.org",
+    keywords: ["women", "women of color", "foundation", "empowerment", "equity"]
+  },
+  {
+    name: "The Malala Fund",
+    description: "Works for a world where every girl can learn and lead.",
+    website: "https://www.malala.org",
+    keywords: ["girls", "education", "leadership", "equality", "global"]
+  },
+  {
+    name: "The Women's Sports Foundation",
+    description: "Dedicated to advancing the lives of girls and women through sports and physical activity.",
+    website: "https://www.womenssportsfoundation.org",
+    keywords: ["women", "sports", "girls", "equality", "physical activity"]
+  },
+  {
+    name: "The Breast Cancer Research Foundation",
+    description: "The largest private funder of breast cancer research worldwide.",
+    website: "https://www.bcrf.org",
+    keywords: ["cancer", "breast cancer", "research", "health", "funding"]
+  },
+  {
+    name: "The Prostate Cancer Foundation",
+    description: "Dedicated to curing prostate cancer through an investment in scientific research.",
+    website: "https://www.pcf.org",
+    keywords: ["cancer", "prostate", "research", "health", "funding"]
+  },
+  {
+    name: "The Multiple Myeloma Research Foundation",
+    description: "Focused on accelerating a cure for multiple myeloma, a rare form of blood cancer.",
+    website: "https://themmrf.org",
+    keywords: ["cancer", "myeloma", "research", "health", "blood cancer"]
+  },
+  {
+    name: "The American Brain Tumor Association",
+    description: "Dedicated to advancing the understanding and treatment of brain tumors.",
+    website: "https://www.abta.org",
+    keywords: ["brain", "tumor", "research", "treatment", "health"]
+  },
+  {
+    name: "The Children's Heart Foundation",
+    description: "Dedicated to funding the most promising research to advance the diagnosis, treatment, and prevention of congenital heart defects.",
+    website: "https://www.childrensheartfoundation.org",
+    keywords: ["children", "heart", "health", "research", "congenital"]
+  },
+  {
+    name: "The ALS Association",
+    description: "Funds research and provides care services for people living with Lou Gehrig's disease.",
+    website: "https://www.als.org",
+    keywords: ["ALS", "Lou Gehrig's", "health", "research", "support"]
+  },
+  {
+    name: "The Lymphoma Research Foundation",
+    description: "Dedicated to finding a cure for lymphoma and providing support to patients.",
+    website: "https://www.lymphoma.org",
+    keywords: ["lymphoma", "cancer", "research", "health", "support"]
+  },
+  {
+    name: "The National Ataxia Foundation",
+    description: "A national organization dedicated to improving the lives of people affected by ataxia.",
+    website: "https://www.ataxia.org",
+    keywords: ["ataxia", "health", "neurology", "support", "research"]
+  },
+  {
+    name: "The Scleroderma Foundation",
+    description: "Dedicated to providing support, education, and research for those affected by scleroderma.",
+    website: "https://www.scleroderma.org",
+    keywords: ["scleroderma", "health", "research", "support", "autoimmune"]
+  },
+  {
+    name: "The Alzheimer's Foundation of America",
+    description: "Provides support, services, and education to individuals, families, and caregivers affected by Alzheimer's disease.",
+    website: "https://alzfdn.org",
+    keywords: ["Alzheimer's", "dementia", "support", "education", "caregivers"]
+  },
+  {
+    name: "The Huntington's Disease Society of America",
+    description: "The largest non-profit organization dedicated to improving the lives of everyone affected by Huntington's disease.",
+    website: "https://hdsa.org",
+    keywords: ["Huntington's", "health", "neurology", "disease", "support"]
+  },
+  {
+    name: "The Myasthenia Gravis Foundation of America",
+    description: "Dedicated to finding a cure for myasthenia gravis and related autoimmune diseases.",
+    website: "https://myasthenia.org",
+    keywords: ["myasthenia gravis", "autoimmune", "research", "health", "cure"]
+  },
+  {
+    name: "The National Down Syndrome Society",
+    description: "A leading human rights organization for all people with Down syndrome.",
+    website: "https://www.ndss.org",
+    keywords: ["Down syndrome", "human rights", "advocacy", "support", "education"]
+  },
+  {
+    name: "The Autism Society",
+    description: "Provides support and education to individuals with autism and their families.",
+    website: "https://www.autism-society.org",
+    keywords: ["autism", "support", "education", "families", "advocacy"]
+  },
+  {
+    name: "The National Organization for Rare Disorders (NORD)",
+    description: "Dedicated to helping people with rare diseases through education, advocacy, and research.",
+    website: "https://rarediseases.org",
+    keywords: ["rare diseases", "research", "advocacy", "education", "health"]
+  },
+  {
+    name: "The American Kidney Fund",
+    description: "Helps people fight kidney disease and live healthier lives.",
+    website: "https://www.kidneyfund.org",
+    keywords: ["kidney", "health", "disease", "support", "finance"]
+  },
+  {
+    name: "The Michael J. Fox Foundation for Parkinson's Research",
+    description: "Works to accelerate the development of a cure for Parkinson's disease.",
+    website: "https://www.michaeljfox.org",
+    keywords: ["Parkinson's", "research", "cure", "health", "neurology"]
+  },
+  {
+    name: "The National Brain Tumor Society",
+    description: "Drives research and public policy for the brain tumor community.",
+    website: "https://braintumor.org",
+    keywords: ["brain", "tumor", "research", "policy", "advocacy"]
+  },
+  {
+    name: "The Alzheimer's Drug Discovery Foundation",
+    description: "Supports research to find drugs to prevent, treat, and cure Alzheimer's disease.",
+    website: "https://www.alzdiscovery.org",
+    keywords: ["Alzheimer's", "research", "drugs", "cure", "prevention"]
+  },
+  {
+    name: "The American Porphyria Foundation",
+    description: "Dedicated to the diagnosis, treatment, and cure of porphyria.",
+    website: "https://porphyriafoundation.org",
+    keywords: ["porphyria", "health", "disease", "treatment", "cure"]
+  },
+  {
+    name: "The National Hemophilia Foundation",
+    description: "Finds cures for bleeding disorders and to prevent the complications of these disorders through research.",
+    website: "https://www.hemophilia.org",
+    keywords: ["hemophilia", "bleeding", "health", "disease", "research"]
+  },
+  {
+    name: "The American Autoimmune Related Diseases Association",
+    description: "Dedicated to the eradication of autoimmune diseases and the alleviation of suffering and the socioeconomic impact of autoimmunity.",
+    website: "https://www.aarda.org",
+    keywords: ["autoimmune", "disease", "research", "health", "advocacy"]
+  },
+  {
+    name: "The American Civil Liberties Union (ACLU)",
+    description: "Defends and preserves the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States.",
+    website: "https://www.aclu.org",
+    keywords: ["civil rights", "liberties", "defense", "advocacy", "justice"]
+  },
+  {
+    name: "Amnesty International",
+    description: "A global movement of more than 10 million people in more than 150 countries and territories who campaign to end grave abuses of human rights.",
+    website: "https://www.amnesty.org",
+    keywords: ["human rights", "justice", "advocacy", "global", "peace"]
+  },
+  {
+    name: "Human Rights Watch",
+    description: "Investigates and reports on abuses happening in all corners of the world.",
+    website: "https://www.hrw.org",
+    keywords: ["human rights", "justice", "abuse", "investigation", "global"]
+  },
+  {
+    name: "The NAACP Legal Defense and Educational Fund",
+    description: "America's premier legal organization fighting for racial justice.",
+    website: "https://www.naacpldf.org",
+    keywords: ["racial justice", "legal", "education", "civil rights", "advocacy"]
+  },
+  {
+    name: "The Southern Poverty Law Center",
+    description: "A catalyst for racial justice in the South and beyond, working to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people.",
+    website: "https://www.splcenter.org",
+    keywords: ["racial justice", "poverty", "law", "advocacy", "human rights"]
+  },
+  {
+    name: "The Anti-Defamation League (ADL)",
+    description: "A leading anti-hate organization that fights antisemitism and all forms of hate.",
+    website: "https://www.adl.org",
+    keywords: ["hate", "antisemitism", "advocacy", "civil rights", "justice"]
+  },
+  {
+    name: "The National Urban League",
+    description: "Dedicated to economic empowerment, equality, and social justice for African Americans and others in underserved communities.",
+    website: "https://www.urbanleague.org",
+    keywords: ["economic", "equality", "social justice", "African American", "community"]
+  },
+  {
+    name: "The Innocence Project",
+    description: "Exonerates the wrongly convicted through DNA testing and reforms the criminal justice system to prevent future injustice.",
+    website: "https://www.innocenceproject.org",
+    keywords: ["justice", "DNA", "wrongful conviction", "legal", "reform"]
+  },
+  {
+    name: "The Equal Justice Initiative",
+    description: "Committed to ending mass incarceration and excessive punishment in the United States, to challenging racial and economic injustice, and to protecting basic human rights for the most vulnerable people in American society.",
+    website: "https://eji.org",
+    keywords: ["justice", "incarceration", "racial justice", "human rights", "advocacy"]
+  },
+  {
+    name: "The Thurgood Marshall College Fund",
+    description: "Supports and represents students attending Historically Black Colleges and Universities (HBCUs) and Predominantly Black Institutions (PBIs).",
+    website: "https://www.tmcf.org",
+    keywords: ["HBCU", "education", "college", "students", "black"]
+  },
+  {
+    name: "The Legal Aid Society",
+    description: "The nation's oldest and largest not-for-profit legal aid organization.",
+    website: "https://www.legalaidnyc.org",
+    keywords: ["legal", "aid", "justice", "nonprofit", "law"]
+  },
+  {
+    name: "The Brennan Center for Justice",
+    description: "A nonpartisan law and policy institute that works to improve the systems of democracy and justice in the United States.",
+    website: "https://www.brennancenter.org",
+    keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
     name: "The Transgender Law Center",
@@ -6522,22 +7158,250 @@ const charities = [
     keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
+    name: "The Transgender Law Center",
+    description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
+    website: "https://www.transgenderlawcenter.org",
+    keywords: ["transgender", "legal", "advocacy", "rights", "justice"]
   },
   {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
+    name: "The American Association of University Women (AAUW)",
+    description: "Advances equity for women and girls through advocacy, education, and research.",
+    website: "https://www.aauw.org",
+    keywords: ["women", "girls", "equity", "education", "advocacy"]
   },
   {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
+    name: "The National Organization for Women (NOW) Foundation",
+    description: "A feminist organization that promotes equal rights and opportunities for women.",
+    website: "https://now.org",
+    keywords: ["women", "feminist", "equality", "rights", "advocacy"]
+  },
+  {
+    name: "The Feminist Majority Foundation",
+    description: "Dedicated to women's equality, reproductive health, and non-violence.",
+    website: "https://feminist.org",
+    keywords: ["women's rights", "equality", "feminist", "health", "advocacy"]
+  },
+  {
+    name: "The Ms. Foundation for Women",
+    description: "A national foundation that invests in and strengthens the power of women of color and their communities.",
+    website: "https://forwomen.org",
+    keywords: ["women", "women of color", "foundation", "empowerment", "equity"]
+  },
+  {
+    name: "The Malala Fund",
+    description: "Works for a world where every girl can learn and lead.",
+    website: "https://www.malala.org",
+    keywords: ["girls", "education", "leadership", "equality", "global"]
+  },
+  {
+    name: "The Women's Sports Foundation",
+    description: "Dedicated to advancing the lives of girls and women through sports and physical activity.",
+    website: "https://www.womenssportsfoundation.org",
+    keywords: ["women", "sports", "girls", "equality", "physical activity"]
+  },
+  {
+    name: "The Breast Cancer Research Foundation",
+    description: "The largest private funder of breast cancer research worldwide.",
+    website: "https://www.bcrf.org",
+    keywords: ["cancer", "breast cancer", "research", "health", "funding"]
+  },
+  {
+    name: "The Prostate Cancer Foundation",
+    description: "Dedicated to curing prostate cancer through an investment in scientific research.",
+    website: "https://www.pcf.org",
+    keywords: ["cancer", "prostate", "research", "health", "funding"]
+  },
+  {
+    name: "The Multiple Myeloma Research Foundation",
+    description: "Focused on accelerating a cure for multiple myeloma, a rare form of blood cancer.",
+    website: "https://themmrf.org",
+    keywords: ["cancer", "myeloma", "research", "health", "blood cancer"]
+  },
+  {
+    name: "The American Brain Tumor Association",
+    description: "Dedicated to advancing the understanding and treatment of brain tumors.",
+    website: "https://www.abta.org",
+    keywords: ["brain", "tumor", "research", "treatment", "health"]
+  },
+  {
+    name: "The Children's Heart Foundation",
+    description: "Dedicated to funding the most promising research to advance the diagnosis, treatment, and prevention of congenital heart defects.",
+    website: "https://www.childrensheartfoundation.org",
+    keywords: ["children", "heart", "health", "research", "congenital"]
+  },
+  {
+    name: "The ALS Association",
+    description: "Funds research and provides care services for people living with Lou Gehrig's disease.",
+    website: "https://www.als.org",
+    keywords: ["ALS", "Lou Gehrig's", "health", "research", "support"]
+  },
+  {
+    name: "The Lymphoma Research Foundation",
+    description: "Dedicated to finding a cure for lymphoma and providing support to patients.",
+    website: "https://www.lymphoma.org",
+    keywords: ["lymphoma", "cancer", "research", "health", "support"]
+  },
+  {
+    name: "The National Ataxia Foundation",
+    description: "A national organization dedicated to improving the lives of people affected by ataxia.",
+    website: "https://www.ataxia.org",
+    keywords: ["ataxia", "health", "neurology", "support", "research"]
+  },
+  {
+    name: "The Scleroderma Foundation",
+    description: "Dedicated to providing support, education, and research for those affected by scleroderma.",
+    website: "https://www.scleroderma.org",
+    keywords: ["scleroderma", "health", "research", "support", "autoimmune"]
+  },
+  {
+    name: "The Alzheimer's Foundation of America",
+    description: "Provides support, services, and education to individuals, families, and caregivers affected by Alzheimer's disease.",
+    website: "https://alzfdn.org",
+    keywords: ["Alzheimer's", "dementia", "support", "education", "caregivers"]
+  },
+  {
+    name: "The Huntington's Disease Society of America",
+    description: "The largest non-profit organization dedicated to improving the lives of everyone affected by Huntington's disease.",
+    website: "https://hdsa.org",
+    keywords: ["Huntington's", "health", "neurology", "disease", "support"]
+  },
+  {
+    name: "The Myasthenia Gravis Foundation of America",
+    description: "Dedicated to finding a cure for myasthenia gravis and related autoimmune diseases.",
+    website: "https://myasthenia.org",
+    keywords: ["myasthenia gravis", "autoimmune", "research", "health", "cure"]
+  },
+  {
+    name: "The National Down Syndrome Society",
+    description: "A leading human rights organization for all people with Down syndrome.",
+    website: "https://www.ndss.org",
+    keywords: ["Down syndrome", "human rights", "advocacy", "support", "education"]
+  },
+  {
+    name: "The Autism Society",
+    description: "Provides support and education to individuals with autism and their families.",
+    website: "https://www.autism-society.org",
+    keywords: ["autism", "support", "education", "families", "advocacy"]
+  },
+  {
+    name: "The National Organization for Rare Disorders (NORD)",
+    description: "Dedicated to helping people with rare diseases through education, advocacy, and research.",
+    website: "https://rarediseases.org",
+    keywords: ["rare diseases", "research", "advocacy", "education", "health"]
+  },
+  {
+    name: "The American Kidney Fund",
+    description: "Helps people fight kidney disease and live healthier lives.",
+    website: "https://www.kidneyfund.org",
+    keywords: ["kidney", "health", "disease", "support", "finance"]
+  },
+  {
+    name: "The Michael J. Fox Foundation for Parkinson's Research",
+    description: "Works to accelerate the development of a cure for Parkinson's disease.",
+    website: "https://www.michaeljfox.org",
+    keywords: ["Parkinson's", "research", "cure", "health", "neurology"]
+  },
+  {
+    name: "The National Brain Tumor Society",
+    description: "Drives research and public policy for the brain tumor community.",
+    website: "https://braintumor.org",
+    keywords: ["brain", "tumor", "research", "policy", "advocacy"]
+  },
+  {
+    name: "The Alzheimer's Drug Discovery Foundation",
+    description: "Supports research to find drugs to prevent, treat, and cure Alzheimer's disease.",
+    website: "https://www.alzdiscovery.org",
+    keywords: ["Alzheimer's", "research", "drugs", "cure", "prevention"]
+  },
+  {
+    name: "The American Porphyria Foundation",
+    description: "Dedicated to the diagnosis, treatment, and cure of porphyria.",
+    website: "https://porphyriafoundation.org",
+    keywords: ["porphyria", "health", "disease", "treatment", "cure"]
+  },
+  {
+    name: "The National Hemophilia Foundation",
+    description: "Finds cures for bleeding disorders and to prevent the complications of these disorders through research.",
+    website: "https://www.hemophilia.org",
+    keywords: ["hemophilia", "bleeding", "health", "disease", "research"]
+  },
+  {
+    name: "The American Autoimmune Related Diseases Association",
+    description: "Dedicated to the eradication of autoimmune diseases and the alleviation of suffering and the socioeconomic impact of autoimmunity.",
+    website: "https://www.aarda.org",
+    keywords: ["autoimmune", "disease", "research", "health", "advocacy"]
+  },
+  {
+    name: "The American Civil Liberties Union (ACLU)",
+    description: "Defends and preserves the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States.",
+    website: "https://www.aclu.org",
+    keywords: ["civil rights", "liberties", "defense", "advocacy", "justice"]
+  },
+  {
+    name: "Amnesty International",
+    description: "A global movement of more than 10 million people in more than 150 countries and territories who campaign to end grave abuses of human rights.",
+    website: "https://www.amnesty.org",
+    keywords: ["human rights", "justice", "advocacy", "global", "peace"]
+  },
+  {
+    name: "Human Rights Watch",
+    description: "Investigates and reports on abuses happening in all corners of the world.",
+    website: "https://www.hrw.org",
+    keywords: ["human rights", "justice", "abuse", "investigation", "global"]
+  },
+  {
+    name: "The NAACP Legal Defense and Educational Fund",
+    description: "America's premier legal organization fighting for racial justice.",
+    website: "https://www.naacpldf.org",
+    keywords: ["racial justice", "legal", "education", "civil rights", "advocacy"]
+  },
+  {
+    name: "The Southern Poverty Law Center",
+    description: "A catalyst for racial justice in the South and beyond, working to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people.",
+    website: "https://www.splcenter.org",
+    keywords: ["racial justice", "poverty", "law", "advocacy", "human rights"]
+  },
+  {
+    name: "The Anti-Defamation League (ADL)",
+    description: "A leading anti-hate organization that fights antisemitism and all forms of hate.",
+    website: "https://www.adl.org",
+    keywords: ["hate", "antisemitism", "advocacy", "civil rights", "justice"]
+  },
+  {
+    name: "The National Urban League",
+    description: "Dedicated to economic empowerment, equality, and social justice for African Americans and others in underserved communities.",
+    website: "https://www.urbanleague.org",
+    keywords: ["economic", "equality", "social justice", "African American", "community"]
+  },
+  {
+    name: "The Innocence Project",
+    description: "Exonerates the wrongly convicted through DNA testing and reforms the criminal justice system to prevent future injustice.",
+    website: "https://www.innocenceproject.org",
+    keywords: ["justice", "DNA", "wrongful conviction", "legal", "reform"]
+  },
+  {
+    name: "The Equal Justice Initiative",
+    description: "Committed to ending mass incarceration and excessive punishment in the United States, to challenging racial and economic injustice, and to protecting basic human rights for the most vulnerable people in American society.",
+    website: "https://eji.org",
+    keywords: ["justice", "incarceration", "racial justice", "human rights", "advocacy"]
+  },
+  {
+    name: "The Thurgood Marshall College Fund",
+    description: "Supports and represents students attending Historically Black Colleges and Universities (HBCUs) and Predominantly Black Institutions (PBIs).",
+    website: "https://www.tmcf.org",
+    keywords: ["HBCU", "education", "college", "students", "black"]
+  },
+  {
+    name: "The Legal Aid Society",
+    description: "The nation's oldest and largest not-for-profit legal aid organization.",
+    website: "https://www.legalaidnyc.org",
+    keywords: ["legal", "aid", "justice", "nonprofit", "law"]
+  },
+  {
+    name: "The Brennan Center for Justice",
+    description: "A nonpartisan law and policy institute that works to improve the systems of democracy and justice in the United States.",
+    website: "https://www.brennancenter.org",
+    keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
     name: "The Transgender Law Center",
@@ -6786,24 +7650,6 @@ const charities = [
     keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
-  },
-  {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
-  },
-  {
     name: "The Transgender Law Center",
     description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
     website: "https://www.transgenderlawcenter.org",
@@ -7050,24 +7896,6 @@ const charities = [
     keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
   },
   {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
-  },
-  {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
-  },
-  {
     name: "The Transgender Law Center",
     description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
     website: "https://www.transgenderlawcenter.org",
@@ -7312,1080 +8140,6 @@ const charities = [
     description: "A nonpartisan law and policy institute that works to improve the systems of democracy and justice in the United States.",
     website: "https://www.brennancenter.org",
     keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
-  },
-  {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
-  },
-  {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The Transgender Law Center",
-    description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
-    website: "https://www.transgenderlawcenter.org",
-    keywords: ["transgender", "legal", "advocacy", "rights", "justice"]
-  },
-  {
-    name: "The American Association of University Women (AAUW)",
-    description: "Advances equity for women and girls through advocacy, education, and research.",
-    website: "https://www.aauw.org",
-    keywords: ["women", "girls", "equity", "education", "advocacy"]
-  },
-  {
-    name: "The National Organization for Women (NOW) Foundation",
-    description: "A feminist organization that promotes equal rights and opportunities for women.",
-    website: "https://now.org",
-    keywords: ["women", "feminist", "equality", "rights", "advocacy"]
-  },
-  {
-    name: "The Feminist Majority Foundation",
-    description: "Dedicated to women's equality, reproductive health, and non-violence.",
-    website: "https://feminist.org",
-    keywords: ["women's rights", "equality", "feminist", "health", "advocacy"]
-  },
-  {
-    name: "The Ms. Foundation for Women",
-    description: "A national foundation that invests in and strengthens the power of women of color and their communities.",
-    website: "https://forwomen.org",
-    keywords: ["women", "women of color", "foundation", "empowerment", "equity"]
-  },
-  {
-    name: "The Malala Fund",
-    description: "Works for a world where every girl can learn and lead.",
-    website: "https://www.malala.org",
-    keywords: ["girls", "education", "leadership", "equality", "global"]
-  },
-  {
-    name: "The Women's Sports Foundation",
-    description: "Dedicated to advancing the lives of girls and women through sports and physical activity.",
-    website: "https://www.womenssportsfoundation.org",
-    keywords: ["women", "sports", "girls", "equality", "physical activity"]
-  },
-  {
-    name: "The Breast Cancer Research Foundation",
-    description: "The largest private funder of breast cancer research worldwide.",
-    website: "https://www.bcrf.org",
-    keywords: ["cancer", "breast cancer", "research", "health", "funding"]
-  },
-  {
-    name: "The Prostate Cancer Foundation",
-    description: "Dedicated to curing prostate cancer through an investment in scientific research.",
-    website: "https://www.pcf.org",
-    keywords: ["cancer", "prostate", "research", "health", "funding"]
-  },
-  {
-    name: "The Multiple Myeloma Research Foundation",
-    description: "Focused on accelerating a cure for multiple myeloma, a rare form of blood cancer.",
-    website: "https://themmrf.org",
-    keywords: ["cancer", "myeloma", "research", "health", "blood cancer"]
-  },
-  {
-    name: "The American Brain Tumor Association",
-    description: "Dedicated to advancing the understanding and treatment of brain tumors.",
-    website: "https://www.abta.org",
-    keywords: ["brain", "tumor", "research", "treatment", "health"]
-  },
-  {
-    name: "The Children's Heart Foundation",
-    description: "Dedicated to funding the most promising research to advance the diagnosis, treatment, and prevention of congenital heart defects.",
-    website: "https://www.childrensheartfoundation.org",
-    keywords: ["children", "heart", "health", "research", "congenital"]
-  },
-  {
-    name: "The ALS Association",
-    description: "Funds research and provides care services for people living with Lou Gehrig's disease.",
-    website: "https://www.als.org",
-    keywords: ["ALS", "Lou Gehrig's", "health", "research", "support"]
-  },
-  {
-    name: "The Lymphoma Research Foundation",
-    description: "Dedicated to finding a cure for lymphoma and providing support to patients.",
-    website: "https://www.lymphoma.org",
-    keywords: ["lymphoma", "cancer", "research", "health", "support"]
-  },
-  {
-    name: "The National Ataxia Foundation",
-    description: "A national organization dedicated to improving the lives of people affected by ataxia.",
-    website: "https://www.ataxia.org",
-    keywords: ["ataxia", "health", "neurology", "support", "research"]
-  },
-  {
-    name: "The Scleroderma Foundation",
-    description: "Dedicated to providing support, education, and research for those affected by scleroderma.",
-    website: "https://www.scleroderma.org",
-    keywords: ["scleroderma", "health", "research", "support", "autoimmune"]
-  },
-  {
-    name: "The Alzheimer's Foundation of America",
-    description: "Provides support, services, and education to individuals, families, and caregivers affected by Alzheimer's disease.",
-    website: "https://alzfdn.org",
-    keywords: ["Alzheimer's", "dementia", "support", "education", "caregivers"]
-  },
-  {
-    name: "The Huntington's Disease Society of America",
-    description: "The largest non-profit organization dedicated to improving the lives of everyone affected by Huntington's disease.",
-    website: "https://hdsa.org",
-    keywords: ["Huntington's", "health", "neurology", "disease", "support"]
-  },
-  {
-    name: "The Myasthenia Gravis Foundation of America",
-    description: "Dedicated to finding a cure for myasthenia gravis and related autoimmune diseases.",
-    website: "https://myasthenia.org",
-    keywords: ["myasthenia gravis", "autoimmune", "research", "health", "cure"]
-  },
-  {
-    name: "The National Down Syndrome Society",
-    description: "A leading human rights organization for all people with Down syndrome.",
-    website: "https://www.ndss.org",
-    keywords: ["Down syndrome", "human rights", "advocacy", "support", "education"]
-  },
-  {
-    name: "The Autism Society",
-    description: "Provides support and education to individuals with autism and their families.",
-    website: "https://www.autism-society.org",
-    keywords: ["autism", "support", "education", "families", "advocacy"]
-  },
-  {
-    name: "The National Organization for Rare Disorders (NORD)",
-    description: "Dedicated to helping people with rare diseases through education, advocacy, and research.",
-    website: "https://rarediseases.org",
-    keywords: ["rare diseases", "research", "advocacy", "education", "health"]
-  },
-  {
-    name: "The American Kidney Fund",
-    description: "Helps people fight kidney disease and live healthier lives.",
-    website: "https://www.kidneyfund.org",
-    keywords: ["kidney", "health", "disease", "support", "finance"]
-  },
-  {
-    name: "The Michael J. Fox Foundation for Parkinson's Research",
-    description: "Works to accelerate the development of a cure for Parkinson's disease.",
-    website: "https://www.michaeljfox.org",
-    keywords: ["Parkinson's", "research", "cure", "health", "neurology"]
-  },
-  {
-    name: "The National Brain Tumor Society",
-    description: "Drives research and public policy for the brain tumor community.",
-    website: "https://braintumor.org",
-    keywords: ["brain", "tumor", "research", "policy", "advocacy"]
-  },
-  {
-    name: "The Alzheimer's Drug Discovery Foundation",
-    description: "Supports research to find drugs to prevent, treat, and cure Alzheimer's disease.",
-    website: "https://www.alzdiscovery.org",
-    keywords: ["Alzheimer's", "research", "drugs", "cure", "prevention"]
-  },
-  {
-    name: "The American Porphyria Foundation",
-    description: "Dedicated to the diagnosis, treatment, and cure of porphyria.",
-    website: "https://porphyriafoundation.org",
-    keywords: ["porphyria", "health", "disease", "treatment", "cure"]
-  },
-  {
-    name: "The National Hemophilia Foundation",
-    description: "Finds cures for bleeding disorders and to prevent the complications of these disorders through research.",
-    website: "https://www.hemophilia.org",
-    keywords: ["hemophilia", "bleeding", "health", "disease", "research"]
-  },
-  {
-    name: "The American Autoimmune Related Diseases Association",
-    description: "Dedicated to the eradication of autoimmune diseases and the alleviation of suffering and the socioeconomic impact of autoimmunity.",
-    website: "https://www.aarda.org",
-    keywords: ["autoimmune", "disease", "research", "health", "advocacy"]
-  },
-  {
-    name: "The American Civil Liberties Union (ACLU)",
-    description: "Defends and preserves the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States.",
-    website: "https://www.aclu.org",
-    keywords: ["civil rights", "liberties", "defense", "advocacy", "justice"]
-  },
-  {
-    name: "Amnesty International",
-    description: "A global movement of more than 10 million people in more than 150 countries and territories who campaign to end grave abuses of human rights.",
-    website: "https://www.amnesty.org",
-    keywords: ["human rights", "justice", "advocacy", "global", "peace"]
-  },
-  {
-    name: "Human Rights Watch",
-    description: "Investigates and reports on abuses happening in all corners of the world.",
-    website: "https://www.hrw.org",
-    keywords: ["human rights", "justice", "abuse", "investigation", "global"]
-  },
-  {
-    name: "The NAACP Legal Defense and Educational Fund",
-    description: "America's premier legal organization fighting for racial justice.",
-    website: "https://www.naacpldf.org",
-    keywords: ["racial justice", "legal", "education", "civil rights", "advocacy"]
-  },
-  {
-    name: "The Southern Poverty Law Center",
-    description: "A catalyst for racial justice in the South and beyond, working to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people.",
-    website: "https://www.splcenter.org",
-    keywords: ["racial justice", "poverty", "law", "advocacy", "human rights"]
-  },
-  {
-    name: "The Anti-Defamation League (ADL)",
-    description: "A leading anti-hate organization that fights antisemitism and all forms of hate.",
-    website: "https://www.adl.org",
-    keywords: ["hate", "antisemitism", "advocacy", "civil rights", "justice"]
-  },
-  {
-    name: "The National Urban League",
-    description: "Dedicated to economic empowerment, equality, and social justice for African Americans and others in underserved communities.",
-    website: "https://www.urbanleague.org",
-    keywords: ["economic", "equality", "social justice", "African American", "community"]
-  },
-  {
-    name: "The Innocence Project",
-    description: "Exonerates the wrongly convicted through DNA testing and reforms the criminal justice system to prevent future injustice.",
-    website: "https://www.innocenceproject.org",
-    keywords: ["justice", "DNA", "wrongful conviction", "legal", "reform"]
-  },
-  {
-    name: "The Equal Justice Initiative",
-    description: "Committed to ending mass incarceration and excessive punishment in the United States, to challenging racial and economic injustice, and to protecting basic human rights for the most vulnerable people in American society.",
-    website: "https://eji.org",
-    keywords: ["justice", "incarceration", "racial justice", "human rights", "advocacy"]
-  },
-  {
-    name: "The Thurgood Marshall College Fund",
-    description: "Supports and represents students attending Historically Black Colleges and Universities (HBCUs) and Predominantly Black Institutions (PBIs).",
-    website: "https://www.tmcf.org",
-    keywords: ["HBCU", "education", "college", "students", "black"]
-  },
-  {
-    name: "The Legal Aid Society",
-    description: "The nation's oldest and largest not-for-profit legal aid organization.",
-    website: "https://www.legalaidnyc.org",
-    keywords: ["legal", "aid", "justice", "nonprofit", "law"]
-  },
-  {
-    name: "The Brennan Center for Justice",
-    description: "A nonpartisan law and policy institute that works to improve the systems of democracy and justice in the United States.",
-    website: "https://www.brennancenter.org",
-    keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
-  },
-  {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
-  },
-  {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The Transgender Law Center",
-    description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
-    website: "https://www.transgenderlawcenter.org",
-    keywords: ["transgender", "legal", "advocacy", "rights", "justice"]
-  },
-  {
-    name: "The American Association of University Women (AAUW)",
-    description: "Advances equity for women and girls through advocacy, education, and research.",
-    website: "https://www.aauw.org",
-    keywords: ["women", "girls", "equity", "education", "advocacy"]
-  },
-  {
-    name: "The National Organization for Women (NOW) Foundation",
-    description: "A feminist organization that promotes equal rights and opportunities for women.",
-    website: "https://now.org",
-    keywords: ["women", "feminist", "equality", "rights", "advocacy"]
-  },
-  {
-    name: "The Feminist Majority Foundation",
-    description: "Dedicated to women's equality, reproductive health, and non-violence.",
-    website: "https://feminist.org",
-    keywords: ["women's rights", "equality", "feminist", "health", "advocacy"]
-  },
-  {
-    name: "The Ms. Foundation for Women",
-    description: "A national foundation that invests in and strengthens the power of women of color and their communities.",
-    website: "https://forwomen.org",
-    keywords: ["women", "women of color", "foundation", "empowerment", "equity"]
-  },
-  {
-    name: "The Malala Fund",
-    description: "Works for a world where every girl can learn and lead.",
-    website: "https://www.malala.org",
-    keywords: ["girls", "education", "leadership", "equality", "global"]
-  },
-  {
-    name: "The Women's Sports Foundation",
-    description: "Dedicated to advancing the lives of girls and women through sports and physical activity.",
-    website: "https://www.womenssportsfoundation.org",
-    keywords: ["women", "sports", "girls", "equality", "physical activity"]
-  },
-  {
-    name: "The Breast Cancer Research Foundation",
-    description: "The largest private funder of breast cancer research worldwide.",
-    website: "https://www.bcrf.org",
-    keywords: ["cancer", "breast cancer", "research", "health", "funding"]
-  },
-  {
-    name: "The Prostate Cancer Foundation",
-    description: "Dedicated to curing prostate cancer through an investment in scientific research.",
-    website: "https://www.pcf.org",
-    keywords: ["cancer", "prostate", "research", "health", "funding"]
-  },
-  {
-    name: "The Multiple Myeloma Research Foundation",
-    description: "Focused on accelerating a cure for multiple myeloma, a rare form of blood cancer.",
-    website: "https://themmrf.org",
-    keywords: ["cancer", "myeloma", "research", "health", "blood cancer"]
-  },
-  {
-    name: "The American Brain Tumor Association",
-    description: "Dedicated to advancing the understanding and treatment of brain tumors.",
-    website: "https://www.abta.org",
-    keywords: ["brain", "tumor", "research", "treatment", "health"]
-  },
-  {
-    name: "The Children's Heart Foundation",
-    description: "Dedicated to funding the most promising research to advance the diagnosis, treatment, and prevention of congenital heart defects.",
-    website: "https://www.childrensheartfoundation.org",
-    keywords: ["children", "heart", "health", "research", "congenital"]
-  },
-  {
-    name: "The ALS Association",
-    description: "Funds research and provides care services for people living with Lou Gehrig's disease.",
-    website: "https://www.als.org",
-    keywords: ["ALS", "Lou Gehrig's", "health", "research", "support"]
-  },
-  {
-    name: "The Lymphoma Research Foundation",
-    description: "Dedicated to finding a cure for lymphoma and providing support to patients.",
-    website: "https://www.lymphoma.org",
-    keywords: ["lymphoma", "cancer", "research", "health", "support"]
-  },
-  {
-    name: "The National Ataxia Foundation",
-    description: "A national organization dedicated to improving the lives of people affected by ataxia.",
-    website: "https://www.ataxia.org",
-    keywords: ["ataxia", "health", "neurology", "support", "research"]
-  },
-  {
-    name: "The Scleroderma Foundation",
-    description: "Dedicated to providing support, education, and research for those affected by scleroderma.",
-    website: "https://www.scleroderma.org",
-    keywords: ["scleroderma", "health", "research", "support", "autoimmune"]
-  },
-  {
-    name: "The Alzheimer's Foundation of America",
-    description: "Provides support, services, and education to individuals, families, and caregivers affected by Alzheimer's disease.",
-    website: "https://alzfdn.org",
-    keywords: ["Alzheimer's", "dementia", "support", "education", "caregivers"]
-  },
-  {
-    name: "The Huntington's Disease Society of America",
-    description: "The largest non-profit organization dedicated to improving the lives of everyone affected by Huntington's disease.",
-    website: "https://hdsa.org",
-    keywords: ["Huntington's", "health", "neurology", "disease", "support"]
-  },
-  {
-    name: "The Myasthenia Gravis Foundation of America",
-    description: "Dedicated to finding a cure for myasthenia gravis and related autoimmune diseases.",
-    website: "https://myasthenia.org",
-    keywords: ["myasthenia gravis", "autoimmune", "research", "health", "cure"]
-  },
-  {
-    name: "The National Down Syndrome Society",
-    description: "A leading human rights organization for all people with Down syndrome.",
-    website: "https://www.ndss.org",
-    keywords: ["Down syndrome", "human rights", "advocacy", "support", "education"]
-  },
-  {
-    name: "The Autism Society",
-    description: "Provides support and education to individuals with autism and their families.",
-    website: "https://www.autism-society.org",
-    keywords: ["autism", "support", "education", "families", "advocacy"]
-  },
-  {
-    name: "The National Organization for Rare Disorders (NORD)",
-    description: "Dedicated to helping people with rare diseases through education, advocacy, and research.",
-    website: "https://rarediseases.org",
-    keywords: ["rare diseases", "research", "advocacy", "education", "health"]
-  },
-  {
-    name: "The American Kidney Fund",
-    description: "Helps people fight kidney disease and live healthier lives.",
-    website: "https://www.kidneyfund.org",
-    keywords: ["kidney", "health", "disease", "support", "finance"]
-  },
-  {
-    name: "The Michael J. Fox Foundation for Parkinson's Research",
-    description: "Works to accelerate the development of a cure for Parkinson's disease.",
-    website: "https://www.michaeljfox.org",
-    keywords: ["Parkinson's", "research", "cure", "health", "neurology"]
-  },
-  {
-    name: "The National Brain Tumor Society",
-    description: "Drives research and public policy for the brain tumor community.",
-    website: "https://braintumor.org",
-    keywords: ["brain", "tumor", "research", "policy", "advocacy"]
-  },
-  {
-    name: "The Alzheimer's Drug Discovery Foundation",
-    description: "Supports research to find drugs to prevent, treat, and cure Alzheimer's disease.",
-    website: "https://www.alzdiscovery.org",
-    keywords: ["Alzheimer's", "research", "drugs", "cure", "prevention"]
-  },
-  {
-    name: "The American Porphyria Foundation",
-    description: "Dedicated to the diagnosis, treatment, and cure of porphyria.",
-    website: "https://porphyriafoundation.org",
-    keywords: ["porphyria", "health", "disease", "treatment", "cure"]
-  },
-  {
-    name: "The National Hemophilia Foundation",
-    description: "Finds cures for bleeding disorders and to prevent the complications of these disorders through research.",
-    website: "https://www.hemophilia.org",
-    keywords: ["hemophilia", "bleeding", "health", "disease", "research"]
-  },
-  {
-    name: "The American Autoimmune Related Diseases Association",
-    description: "Dedicated to the eradication of autoimmune diseases and the alleviation of suffering and the socioeconomic impact of autoimmunity.",
-    website: "https://www.aarda.org",
-    keywords: ["autoimmune", "disease", "research", "health", "advocacy"]
-  },
-  {
-    name: "The American Civil Liberties Union (ACLU)",
-    description: "Defends and preserves the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States.",
-    website: "https://www.aclu.org",
-    keywords: ["civil rights", "liberties", "defense", "advocacy", "justice"]
-  },
-  {
-    name: "Amnesty International",
-    description: "A global movement of more than 10 million people in more than 150 countries and territories who campaign to end grave abuses of human rights.",
-    website: "https://www.amnesty.org",
-    keywords: ["human rights", "justice", "advocacy", "global", "peace"]
-  },
-  {
-    name: "Human Rights Watch",
-    description: "Investigates and reports on abuses happening in all corners of the world.",
-    website: "https://www.hrw.org",
-    keywords: ["human rights", "justice", "abuse", "investigation", "global"]
-  },
-  {
-    name: "The NAACP Legal Defense and Educational Fund",
-    description: "America's premier legal organization fighting for racial justice.",
-    website: "https://www.naacpldf.org",
-    keywords: ["racial justice", "legal", "education", "civil rights", "advocacy"]
-  },
-  {
-    name: "The Southern Poverty Law Center",
-    description: "A catalyst for racial justice in the South and beyond, working to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people.",
-    website: "https://www.splcenter.org",
-    keywords: ["racial justice", "poverty", "law", "advocacy", "human rights"]
-  },
-  {
-    name: "The Anti-Defamation League (ADL)",
-    description: "A leading anti-hate organization that fights antisemitism and all forms of hate.",
-    website: "https://www.adl.org",
-    keywords: ["hate", "antisemitism", "advocacy", "civil rights", "justice"]
-  },
-  {
-    name: "The National Urban League",
-    description: "Dedicated to economic empowerment, equality, and social justice for African Americans and others in underserved communities.",
-    website: "https://www.urbanleague.org",
-    keywords: ["economic", "equality", "social justice", "African American", "community"]
-  },
-  {
-    name: "The Innocence Project",
-    description: "Exonerates the wrongly convicted through DNA testing and reforms the criminal justice system to prevent future injustice.",
-    website: "https://www.innocenceproject.org",
-    keywords: ["justice", "DNA", "wrongful conviction", "legal", "reform"]
-  },
-  {
-    name: "The Equal Justice Initiative",
-    description: "Committed to ending mass incarceration and excessive punishment in the United States, to challenging racial and economic injustice, and to protecting basic human rights for the most vulnerable people in American society.",
-    website: "https://eji.org",
-    keywords: ["justice", "incarceration", "racial justice", "human rights", "advocacy"]
-  },
-  {
-    name: "The Thurgood Marshall College Fund",
-    description: "Supports and represents students attending Historically Black Colleges and Universities (HBCUs) and Predominantly Black Institutions (PBIs).",
-    website: "https://www.tmcf.org",
-    keywords: ["HBCU", "education", "college", "students", "black"]
-  },
-  {
-    name: "The Legal Aid Society",
-    description: "The nation's oldest and largest not-for-profit legal aid organization.",
-    website: "https://www.legalaidnyc.org",
-    keywords: ["legal", "aid", "justice", "nonprofit", "law"]
-  },
-  {
-    name: "The Brennan Center for Justice",
-    description: "A nonpartisan law and policy institute that works to improve the systems of democracy and justice in the United States.",
-    website: "https://www.brennancenter.org",
-    keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
-  },
-  {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
-  },
-  {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The Transgender Law Center",
-    description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
-    website: "https://www.transgenderlawcenter.org",
-    keywords: ["transgender", "legal", "advocacy", "rights", "justice"]
-  },
-  {
-    name: "The American Association of University Women (AAUW)",
-    description: "Advances equity for women and girls through advocacy, education, and research.",
-    website: "https://www.aauw.org",
-    keywords: ["women", "girls", "equity", "education", "advocacy"]
-  },
-  {
-    name: "The National Organization for Women (NOW) Foundation",
-    description: "A feminist organization that promotes equal rights and opportunities for women.",
-    website: "https://now.org",
-    keywords: ["women", "feminist", "equality", "rights", "advocacy"]
-  },
-  {
-    name: "The Feminist Majority Foundation",
-    description: "Dedicated to women's equality, reproductive health, and non-violence.",
-    website: "https://feminist.org",
-    keywords: ["women's rights", "equality", "feminist", "health", "advocacy"]
-  },
-  {
-    name: "The Ms. Foundation for Women",
-    description: "A national foundation that invests in and strengthens the power of women of color and their communities.",
-    website: "https://forwomen.org",
-    keywords: ["women", "women of color", "foundation", "empowerment", "equity"]
-  },
-  {
-    name: "The Malala Fund",
-    description: "Works for a world where every girl can learn and lead.",
-    website: "https://www.malala.org",
-    keywords: ["girls", "education", "leadership", "equality", "global"]
-  },
-  {
-    name: "The Women's Sports Foundation",
-    description: "Dedicated to advancing the lives of girls and women through sports and physical activity.",
-    website: "https://www.womenssportsfoundation.org",
-    keywords: ["women", "sports", "girls", "equality", "physical activity"]
-  },
-  {
-    name: "The Breast Cancer Research Foundation",
-    description: "The largest private funder of breast cancer research worldwide.",
-    website: "https://www.bcrf.org",
-    keywords: ["cancer", "breast cancer", "research", "health", "funding"]
-  },
-  {
-    name: "The Prostate Cancer Foundation",
-    description: "Dedicated to curing prostate cancer through an investment in scientific research.",
-    website: "https://www.pcf.org",
-    keywords: ["cancer", "prostate", "research", "health", "funding"]
-  },
-  {
-    name: "The Multiple Myeloma Research Foundation",
-    description: "Focused on accelerating a cure for multiple myeloma, a rare form of blood cancer.",
-    website: "https://themmrf.org",
-    keywords: ["cancer", "myeloma", "research", "health", "blood cancer"]
-  },
-  {
-    name: "The American Brain Tumor Association",
-    description: "Dedicated to advancing the understanding and treatment of brain tumors.",
-    website: "https://www.abta.org",
-    keywords: ["brain", "tumor", "research", "treatment", "health"]
-  },
-  {
-    name: "The Children's Heart Foundation",
-    description: "Dedicated to funding the most promising research to advance the diagnosis, treatment, and prevention of congenital heart defects.",
-    website: "https://www.childrensheartfoundation.org",
-    keywords: ["children", "heart", "health", "research", "congenital"]
-  },
-  {
-    name: "The ALS Association",
-    description: "Funds research and provides care services for people living with Lou Gehrig's disease.",
-    website: "https://www.als.org",
-    keywords: ["ALS", "Lou Gehrig's", "health", "research", "support"]
-  },
-  {
-    name: "The Lymphoma Research Foundation",
-    description: "Dedicated to finding a cure for lymphoma and providing support to patients.",
-    website: "https://www.lymphoma.org",
-    keywords: ["lymphoma", "cancer", "research", "health", "support"]
-  },
-  {
-    name: "The National Ataxia Foundation",
-    description: "A national organization dedicated to improving the lives of people affected by ataxia.",
-    website: "https://www.ataxia.org",
-    keywords: ["ataxia", "health", "neurology", "support", "research"]
-  },
-  {
-    name: "The Scleroderma Foundation",
-    description: "Dedicated to providing support, education, and research for those affected by scleroderma.",
-    website: "https://www.scleroderma.org",
-    keywords: ["scleroderma", "health", "research", "support", "autoimmune"]
-  },
-  {
-    name: "The Alzheimer's Foundation of America",
-    description: "Provides support, services, and education to individuals, families, and caregivers affected by Alzheimer's disease.",
-    website: "https://alzfdn.org",
-    keywords: ["Alzheimer's", "dementia", "support", "education", "caregivers"]
-  },
-  {
-    name: "The Huntington's Disease Society of America",
-    description: "The largest non-profit organization dedicated to improving the lives of everyone affected by Huntington's disease.",
-    website: "https://hdsa.org",
-    keywords: ["Huntington's", "health", "neurology", "disease", "support"]
-  },
-  {
-    name: "The Myasthenia Gravis Foundation of America",
-    description: "Dedicated to finding a cure for myasthenia gravis and related autoimmune diseases.",
-    website: "https://myasthenia.org",
-    keywords: ["myasthenia gravis", "autoimmune", "research", "health", "cure"]
-  },
-  {
-    name: "The National Down Syndrome Society",
-    description: "A leading human rights organization for all people with Down syndrome.",
-    website: "https://www.ndss.org",
-    keywords: ["Down syndrome", "human rights", "advocacy", "support", "education"]
-  },
-  {
-    name: "The Autism Society",
-    description: "Provides support and education to individuals with autism and their families.",
-    website: "https://www.autism-society.org",
-    keywords: ["autism", "support", "education", "families", "advocacy"]
-  },
-  {
-    name: "The National Organization for Rare Disorders (NORD)",
-    description: "Dedicated to helping people with rare diseases through education, advocacy, and research.",
-    website: "https://rarediseases.org",
-    keywords: ["rare diseases", "research", "advocacy", "education", "health"]
-  },
-  {
-    name: "The American Kidney Fund",
-    description: "Helps people fight kidney disease and live healthier lives.",
-    website: "https://www.kidneyfund.org",
-    keywords: ["kidney", "health", "disease", "support", "finance"]
-  },
-  {
-    name: "The Michael J. Fox Foundation for Parkinson's Research",
-    description: "Works to accelerate the development of a cure for Parkinson's disease.",
-    website: "https://www.michaeljfox.org",
-    keywords: ["Parkinson's", "research", "cure", "health", "neurology"]
-  },
-  {
-    name: "The National Brain Tumor Society",
-    description: "Drives research and public policy for the brain tumor community.",
-    website: "https://braintumor.org",
-    keywords: ["brain", "tumor", "research", "policy", "advocacy"]
-  },
-  {
-    name: "The Alzheimer's Drug Discovery Foundation",
-    description: "Supports research to find drugs to prevent, treat, and cure Alzheimer's disease.",
-    website: "https://www.alzdiscovery.org",
-    keywords: ["Alzheimer's", "research", "drugs", "cure", "prevention"]
-  },
-  {
-    name: "The American Porphyria Foundation",
-    description: "Dedicated to the diagnosis, treatment, and cure of porphyria.",
-    website: "https://porphyriafoundation.org",
-    keywords: ["porphyria", "health", "disease", "treatment", "cure"]
-  },
-  {
-    name: "The National Hemophilia Foundation",
-    description: "Finds cures for bleeding disorders and to prevent the complications of these disorders through research.",
-    website: "https://www.hemophilia.org",
-    keywords: ["hemophilia", "bleeding", "health", "disease", "research"]
-  },
-  {
-    name: "The American Autoimmune Related Diseases Association",
-    description: "Dedicated to the eradication of autoimmune diseases and the alleviation of suffering and the socioeconomic impact of autoimmunity.",
-    website: "https://www.aarda.org",
-    keywords: ["autoimmune", "disease", "research", "health", "advocacy"]
-  },
-  {
-    name: "The American Civil Liberties Union (ACLU)",
-    description: "Defends and preserves the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States.",
-    website: "https://www.aclu.org",
-    keywords: ["civil rights", "liberties", "defense", "advocacy", "justice"]
-  },
-  {
-    name: "Amnesty International",
-    description: "A global movement of more than 10 million people in more than 150 countries and territories who campaign to end grave abuses of human rights.",
-    website: "https://www.amnesty.org",
-    keywords: ["human rights", "justice", "advocacy", "global", "peace"]
-  },
-  {
-    name: "Human Rights Watch",
-    description: "Investigates and reports on abuses happening in all corners of the world.",
-    website: "https://www.hrw.org",
-    keywords: ["human rights", "justice", "abuse", "investigation", "global"]
-  },
-  {
-    name: "The NAACP Legal Defense and Educational Fund",
-    description: "America's premier legal organization fighting for racial justice.",
-    website: "https://www.naacpldf.org",
-    keywords: ["racial justice", "legal", "education", "civil rights", "advocacy"]
-  },
-  {
-    name: "The Southern Poverty Law Center",
-    description: "A catalyst for racial justice in the South and beyond, working to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people.",
-    website: "https://www.splcenter.org",
-    keywords: ["racial justice", "poverty", "law", "advocacy", "human rights"]
-  },
-  {
-    name: "The Anti-Defamation League (ADL)",
-    description: "A leading anti-hate organization that fights antisemitism and all forms of hate.",
-    website: "https://www.adl.org",
-    keywords: ["hate", "antisemitism", "advocacy", "civil rights", "justice"]
-  },
-  {
-    name: "The National Urban League",
-    description: "Dedicated to economic empowerment, equality, and social justice for African Americans and others in underserved communities.",
-    website: "https://www.urbanleague.org",
-    keywords: ["economic", "equality", "social justice", "African American", "community"]
-  },
-  {
-    name: "The Innocence Project",
-    description: "Exonerates the wrongly convicted through DNA testing and reforms the criminal justice system to prevent future injustice.",
-    website: "https://www.innocenceproject.org",
-    keywords: ["justice", "DNA", "wrongful conviction", "legal", "reform"]
-  },
-  {
-    name: "The Equal Justice Initiative",
-    description: "Committed to ending mass incarceration and excessive punishment in the United States, to challenging racial and economic injustice, and to protecting basic human rights for the most vulnerable people in American society.",
-    website: "https://eji.org",
-    keywords: ["justice", "incarceration", "racial justice", "human rights", "advocacy"]
-  },
-  {
-    name: "The Thurgood Marshall College Fund",
-    description: "Supports and represents students attending Historically Black Colleges and Universities (HBCUs) and Predominantly Black Institutions (PBIs).",
-    website: "https://www.tmcf.org",
-    keywords: ["HBCU", "education", "college", "students", "black"]
-  },
-  {
-    name: "The Legal Aid Society",
-    description: "The nation's oldest and largest not-for-profit legal aid organization.",
-    website: "https://www.legalaidnyc.org",
-    keywords: ["legal", "aid", "justice", "nonprofit", "law"]
-  },
-  {
-    name: "The Brennan Center for Justice",
-    description: "A nonpartisan law and policy institute that works to improve the systems of democracy and justice in the United States.",
-    website: "https://www.brennancenter.org",
-    keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
-  },
-  {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
-  },
-  {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The Transgender Law Center",
-    description: "The largest national trans-led organization advocating for a world in which all people are free to define themselves and their futures.",
-    website: "https://www.transgenderlawcenter.org",
-    keywords: ["transgender", "legal", "advocacy", "rights", "justice"]
-  },
-  {
-    name: "The American Association of University Women (AAUW)",
-    description: "Advances equity for women and girls through advocacy, education, and research.",
-    website: "https://www.aauw.org",
-    keywords: ["women", "girls", "equity", "education", "advocacy"]
-  },
-  {
-    name: "The National Organization for Women (NOW) Foundation",
-    description: "A feminist organization that promotes equal rights and opportunities for women.",
-    website: "https://now.org",
-    keywords: ["women", "feminist", "equality", "rights", "advocacy"]
-  },
-  {
-    name: "The Feminist Majority Foundation",
-    description: "Dedicated to women's equality, reproductive health, and non-violence.",
-    website: "https://feminist.org",
-    keywords: ["women's rights", "equality", "feminist", "health", "advocacy"]
-  },
-  {
-    name: "The Ms. Foundation for Women",
-    description: "A national foundation that invests in and strengthens the power of women of color and their communities.",
-    website: "https://forwomen.org",
-    keywords: ["women", "women of color", "foundation", "empowerment", "equity"]
-  },
-  {
-    name: "The Malala Fund",
-    description: "Works for a world where every girl can learn and lead.",
-    website: "https://www.malala.org",
-    keywords: ["girls", "education", "leadership", "equality", "global"]
-  },
-  {
-    name: "The Women's Sports Foundation",
-    description: "Dedicated to advancing the lives of girls and women through sports and physical activity.",
-    website: "https://www.womenssportsfoundation.org",
-    keywords: ["women", "sports", "girls", "equality", "physical activity"]
-  },
-  {
-    name: "The Breast Cancer Research Foundation",
-    description: "The largest private funder of breast cancer research worldwide.",
-    website: "https://www.bcrf.org",
-    keywords: ["cancer", "breast cancer", "research", "health", "funding"]
-  },
-  {
-    name: "The Prostate Cancer Foundation",
-    description: "Dedicated to curing prostate cancer through an investment in scientific research.",
-    website: "https://www.pcf.org",
-    keywords: ["cancer", "prostate", "research", "health", "funding"]
-  },
-  {
-    name: "The Multiple Myeloma Research Foundation",
-    description: "Focused on accelerating a cure for multiple myeloma, a rare form of blood cancer.",
-    website: "https://themmrf.org",
-    keywords: ["cancer", "myeloma", "research", "health", "blood cancer"]
-  },
-  {
-    name: "The American Brain Tumor Association",
-    description: "Dedicated to advancing the understanding and treatment of brain tumors.",
-    website: "https://www.abta.org",
-    keywords: ["brain", "tumor", "research", "treatment", "health"]
-  },
-  {
-    name: "The Children's Heart Foundation",
-    description: "Dedicated to funding the most promising research to advance the diagnosis, treatment, and prevention of congenital heart defects.",
-    website: "https://www.childrensheartfoundation.org",
-    keywords: ["children", "heart", "health", "research", "congenital"]
-  },
-  {
-    name: "The ALS Association",
-    description: "Funds research and provides care services for people living with Lou Gehrig's disease.",
-    website: "https://www.als.org",
-    keywords: ["ALS", "Lou Gehrig's", "health", "research", "support"]
-  },
-  {
-    name: "The Lymphoma Research Foundation",
-    description: "Dedicated to finding a cure for lymphoma and providing support to patients.",
-    website: "https://www.lymphoma.org",
-    keywords: ["lymphoma", "cancer", "research", "health", "support"]
-  },
-  {
-    name: "The National Ataxia Foundation",
-    description: "A national organization dedicated to improving the lives of people affected by ataxia.",
-    website: "https://www.ataxia.org",
-    keywords: ["ataxia", "health", "neurology", "support", "research"]
-  },
-  {
-    name: "The Scleroderma Foundation",
-    description: "Dedicated to providing support, education, and research for those affected by scleroderma.",
-    website: "https://www.scleroderma.org",
-    keywords: ["scleroderma", "health", "research", "support", "autoimmune"]
-  },
-  {
-    name: "The Alzheimer's Foundation of America",
-    description: "Provides support, services, and education to individuals, families, and caregivers affected by Alzheimer's disease.",
-    website: "https://alzfdn.org",
-    keywords: ["Alzheimer's", "dementia", "support", "education", "caregivers"]
-  },
-  {
-    name: "The Huntington's Disease Society of America",
-    description: "The largest non-profit organization dedicated to improving the lives of everyone affected by Huntington's disease.",
-    website: "https://hdsa.org",
-    keywords: ["Huntington's", "health", "neurology", "disease", "support"]
-  },
-  {
-    name: "The Myasthenia Gravis Foundation of America",
-    description: "Dedicated to finding a cure for myasthenia gravis and related autoimmune diseases.",
-    website: "https://myasthenia.org",
-    keywords: ["myasthenia gravis", "autoimmune", "research", "health", "cure"]
-  },
-  {
-    name: "The National Down Syndrome Society",
-    description: "A leading human rights organization for all people with Down syndrome.",
-    website: "https://www.ndss.org",
-    keywords: ["Down syndrome", "human rights", "advocacy", "support", "education"]
-  },
-  {
-    name: "The Autism Society",
-    description: "Provides support and education to individuals with autism and their families.",
-    website: "https://www.autism-society.org",
-    keywords: ["autism", "support", "education", "families", "advocacy"]
-  },
-  {
-    name: "The National Organization for Rare Disorders (NORD)",
-    description: "Dedicated to helping people with rare diseases through education, advocacy, and research.",
-    website: "https://rarediseases.org",
-    keywords: ["rare diseases", "research", "advocacy", "education", "health"]
-  },
-  {
-    name: "The American Kidney Fund",
-    description: "Helps people fight kidney disease and live healthier lives.",
-    website: "https://www.kidneyfund.org",
-    keywords: ["kidney", "health", "disease", "support", "finance"]
-  },
-  {
-    name: "The Michael J. Fox Foundation for Parkinson's Research",
-    description: "Works to accelerate the development of a cure for Parkinson's disease.",
-    website: "https://www.michaeljfox.org",
-    keywords: ["Parkinson's", "research", "cure", "health", "neurology"]
-  },
-  {
-    name: "The National Brain Tumor Society",
-    description: "Drives research and public policy for the brain tumor community.",
-    website: "https://braintumor.org",
-    keywords: ["brain", "tumor", "research", "policy", "advocacy"]
-  },
-  {
-    name: "The Alzheimer's Drug Discovery Foundation",
-    description: "Supports research to find drugs to prevent, treat, and cure Alzheimer's disease.",
-    website: "https://www.alzdiscovery.org",
-    keywords: ["Alzheimer's", "research", "drugs", "cure", "prevention"]
-  },
-  {
-    name: "The American Porphyria Foundation",
-    description: "Dedicated to the diagnosis, treatment, and cure of porphyria.",
-    website: "https://porphyriafoundation.org",
-    keywords: ["porphyria", "health", "disease", "treatment", "cure"]
-  },
-  {
-    name: "The National Hemophilia Foundation",
-    description: "Finds cures for bleeding disorders and to prevent the complications of these disorders through research.",
-    website: "https://www.hemophilia.org",
-    keywords: ["hemophilia", "bleeding", "health", "disease", "research"]
-  },
-  {
-    name: "The American Autoimmune Related Diseases Association",
-    description: "Dedicated to the eradication of autoimmune diseases and the alleviation of suffering and the socioeconomic impact of autoimmunity.",
-    website: "https://www.aarda.org",
-    keywords: ["autoimmune", "disease", "research", "health", "advocacy"]
-  },
-  {
-    name: "The American Civil Liberties Union (ACLU)",
-    description: "Defends and preserves the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States.",
-    website: "https://www.aclu.org",
-    keywords: ["civil rights", "liberties", "defense", "advocacy", "justice"]
-  },
-  {
-    name: "Amnesty International",
-    description: "A global movement of more than 10 million people in more than 150 countries and territories who campaign to end grave abuses of human rights.",
-    website: "https://www.amnesty.org",
-    keywords: ["human rights", "justice", "advocacy", "global", "peace"]
-  },
-  {
-    name: "Human Rights Watch",
-    description: "Investigates and reports on abuses happening in all corners of the world.",
-    website: "https://www.hrw.org",
-    keywords: ["human rights", "justice", "abuse", "investigation", "global"]
-  },
-  {
-    name: "The NAACP Legal Defense and Educational Fund",
-    description: "America's premier legal organization fighting for racial justice.",
-    website: "https://www.naacpldf.org",
-    keywords: ["racial justice", "legal", "education", "civil rights", "advocacy"]
-  },
-  {
-    name: "The Southern Poverty Law Center",
-    description: "A catalyst for racial justice in the South and beyond, working to dismantle white supremacy, strengthen intersectional movements, and advance the human rights of all people.",
-    website: "https://www.splcenter.org",
-    keywords: ["racial justice", "poverty", "law", "advocacy", "human rights"]
-  },
-  {
-    name: "The Anti-Defamation League (ADL)",
-    description: "A leading anti-hate organization that fights antisemitism and all forms of hate.",
-    website: "https://www.adl.org",
-    keywords: ["hate", "antisemitism", "advocacy", "civil rights", "justice"]
-  },
-  {
-    name: "The National Urban League",
-    description: "Dedicated to economic empowerment, equality, and social justice for African Americans and others in underserved communities.",
-    website: "https://www.urbanleague.org",
-    keywords: ["economic", "equality", "social justice", "African American", "community"]
-  },
-  {
-    name: "The Innocence Project",
-    description: "Exonerates the wrongly convicted through DNA testing and reforms the criminal justice system to prevent future injustice.",
-    website: "https://www.innocenceproject.org",
-    keywords: ["justice", "DNA", "wrongful conviction", "legal", "reform"]
-  },
-  {
-    name: "The Equal Justice Initiative",
-    description: "Committed to ending mass incarceration and excessive punishment in the United States, to challenging racial and economic injustice, and to protecting basic human rights for the most vulnerable people in American society.",
-    website: "https://eji.org",
-    keywords: ["justice", "incarceration", "racial justice", "human rights", "advocacy"]
-  },
-  {
-    name: "The Thurgood Marshall College Fund",
-    description: "Supports and represents students attending Historically Black Colleges and Universities (HBCUs) and Predominantly Black Institutions (PBIs).",
-    website: "https://www.tmcf.org",
-    keywords: ["HBCU", "education", "college", "students", "black"]
-  },
-  {
-    name: "The Legal Aid Society",
-    description: "The nation's oldest and largest not-for-profit legal aid organization.",
-    website: "https://www.legalaidnyc.org",
-    keywords: ["legal", "aid", "justice", "nonprofit", "law"]
-  },
-  {
-    name: "The Brennan Center for Justice",
-    description: "A nonpartisan law and policy institute that works to improve the systems of democracy and justice in the United States.",
-    website: "https://www.brennancenter.org",
-    keywords: ["justice", "democracy", "policy", "legal", "advocacy"]
-  },
-  {
-    name: "The Human Rights Campaign",
-    description: "America's largest civil rights organization working to achieve LGBTQ+ equality.",
-    website: "https://www.hrc.org",
-    keywords: ["LGBTQ+", "equality", "civil rights", "advocacy", "justice"]
-  },
-  {
-    name: "The National LGBTQ Task Force",
-    description: "Advances freedom, justice, and equality for LGBTQ people.",
-    website: "https://www.thetaskforce.org",
-    keywords: ["LGBTQ+", "equality", "justice", "advocacy", "rights"]
-  },
-  {
-    name: "Lambda Legal",
-    description: "A national legal organization committed to achieving full recognition of the civil rights of lesbians, gay men, bisexuals, transgender people and everyone living with HIV through impact litigation, education and public policy work.",
-    website: "https://www.lambdalegal.org",
-    keywords: ["LGBTQ+", "legal", "civil rights", "advocacy", "justice"]
   },
   {
     name: "The Transgender Law Center",
