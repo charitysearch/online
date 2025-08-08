@@ -2995,26 +2995,5 @@ const charities = [
     "keywords": [
       "PTSD"
     ]
-  },
-  {
-    "name": "Test 1",
-    "description": "just a test!",
-    "website": "test.com",
-    "keywords": [
-      "test",
-      "test1"
-    ]
-  },
-  {
-    "name": "test 2!",
-    "description": "Test 2, this is cool!",
-    "website": "test2.com",
-    "keywords": [
-      "test2",
-      "2",
-      "4",
-      "6",
-      "8"
-    ]
   }
 ];
