@@ -8544,6 +8544,90 @@ const charities = [
     keywords: ["Alzheimer's", "research", "drugs", "cure", "prevention"]
   },
   {
+    name: "Global Clean Water Trust",
+    description: "Funds clean water projects in drought-affected regions.",
+    website: "https://www.globalcleanwatertrust.org",
+    keywords: ["water", "clean", "drought", "projects"]
+  },
+  {
+    name: "Bright Start Reading",
+    description: "Runs early reading intervention programs for preschoolers.",
+    website: "https://www.brightstartreading.org",
+    keywords: ["reading", "early", "preschool", "intervention"]
+  },
+  {
+    name: "Harvest Hands Youth",
+    description: "Teaches farming and nutrition to youth groups.",
+    website: "https://www.harvesthandsyouth.org",
+    keywords: ["farming", "nutrition", "youth", "groups"]
+  },
+  {
+    name: "Hope for the Unhoused",
+    description: "Provides emergency shelter and meals to homeless individuals.",
+    website: "https://www.hopefortheunhoused.org",
+    keywords: ["homeless", "shelter", "meals", "emergency"]
+  },
+  {
+    name: "Urban Arts Collective",
+    description: "Empowers youth through street art and creative workshops.",
+    website: "https://www.urbanartscollective.org",
+    keywords: ["youth", "street art", "creative", "workshops"]
+  },
+  {
+    name: "Next Steps for Newcomers",
+    description: "Guides immigrants and refugees through community integration.",
+    website: "https://www.nextstepsfornewcomers.org",
+    keywords: ["immigrants", "refugees", "integration", "community"]
+  },
+  {
+    name: "Clean Rivers Initiative",
+    description: "Organizes river cleanup events and public awareness campaigns.",
+    website: "https://www.cleanriversinitiative.org",
+    keywords: ["rivers", "cleanup", "awareness", "events"]
+  },
+  {
+    name: "Healthy Hearts for Women",
+    description: "Promotes cardiovascular health awareness for women.",
+    website: "https://www.healthyheartsforwomen.org",
+    keywords: ["health", "cardiovascular", "women", "awareness"]
+  },
+  {
+    name: "Bridge2Books",
+    description: "Donates books and builds libraries in remote schools.",
+    website: "https://www.bridge2books.org",
+    keywords: ["books", "libraries", "remote", "schools"]
+  },
+  {
+    name: "Global Eco Fund",
+    description: "Supports reforestation and wildlife protection projects.",
+    website: "https://www.globalecofund.org",
+    keywords: ["reforestation", "wildlife", "projects", "protection"]
+  },
+  {
+    name: "Safe Sound Project",
+    description: "Provides hearing protection and screenings for musicians and workers.",
+    website: "https://www.safesoundproject.org",
+    keywords: ["hearing", "protection", "screening", "workers"]
+  },
+  {
+    "name": "Wounded Warrior Project",
+    "description": "Raises money to help support US veternans who suffer from PTSD and their families",
+    "website": "https://support.woundedwarriorproject.org/Default.aspx?tsid=11585&ovr_acv_id=11898&campaignsource=ONLINE&source=BS25009AAANBHAA&gclsrc=aw.ds&gad_source=1&gad_campaignid=1536334488&gbraid=0AAAAADg1Wjq-aZRCSJAuX_fKZ-qvARGXA&gclid=Cj0KCQjwndHEBhDVARIsAGh0g3B9sigR0QZHZ6gW9cmjNr6gvtYWq0rNEZ_4hOlCQa6XnHqILvZ1a9QaAn0-EALw_wcB",
+    "keywords": ["PTSD"]
+  },
+  {
+    "name": "Human Rights Watch",
+    "description": "Helps spread the awarness of Tyranny and empower viticms",
+    "website": "https://donate.hrw.org/page/107245/donate/1?ea.tracking.id=geo",
+    "keywords": ["Rights"]
+  },
+  {
+    "name": "PTSD Foundation of America",
+    "description": "Provides services, programs and support to veterans who suffer from trauma daily",
+    "website": "https://ptsdusa.org",
+    "keywords": ["PTSD"]
+  },
+  {
     name: "The American Porphyria Foundation",
     description: "Dedicated to the diagnosis, treatment, and cure of porphyria.",
     website: "https://porphyriafoundation.org",
