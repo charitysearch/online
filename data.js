@@ -4788,12 +4788,6 @@ const charities = [
     keywords: ["disabilities", "sports", "athletes", "competition", "intellectual"]
   },
   {
-    name: "The Leukemia & Lymphoma Society",
-    description: "Funds research, finds cures, and ensures access to treatments for blood cancer patients.",
-    website: "https://www.lls.org",
-    keywords: ["cancer", "leukemia", "lymphoma", "research", "blood cancer"]
-  },
-  {
     name: "The Trust for Public Land",
     description: "Creates parks and protects land for people, ensuring everyone has access to the outdoors.",
     website: "https://www.tpl.org",
