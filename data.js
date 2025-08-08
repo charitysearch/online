@@ -2994,6 +2994,9 @@ const charities = [
     "website": "https://ptsdusa.org",
     "keywords": [
       "PTSD"
+      "veteran",
+      "trama",
+      "stress"
     ]
   }
 ];
