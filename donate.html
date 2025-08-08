@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to bottom right, #f0f4f8, #dbeafe);
+      color: #1e293b;
+      padding: 0;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 0.8s ease-in-out;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #1e3a8a;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #334155;
+      margin-bottom: 16px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 36px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: white;
+      background: linear-gradient(to right, #3b82f6, #6366f1);
+      border: none;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 10px 25px rgba(99, 102, 241, 0.25);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 30px rgba(99, 102, 241, 0.35);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .button {
+        width: 100%;
+        padding: 14px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Donate to a Charity</h1>
+    <p>
+      Donating to a charity is one of the most powerful ways to make a difference. Whether you're giving money, time, or resources, your support can help save lives, feed families, protect the environment, or support education and mental health.
+    </p>
+    <p>
+      Even small donations can create a big impact when combined with the efforts of others. Charities rely on the generosity of people like you to continue the important work they do every day.
+    </p>
+    <p>
+      By choosing a cause that matters to you and giving what you can, you're helping to build a better world — one act of kindness at a time.
+    </p>
+    <p>
+      Explore our list of charities, find one that speaks to you, and take the first step in supporting a cause you believe in.
+    </p>
+
+    <a href="search.html" class="button">Browse Charities to Donate</a>
+  </div>
+
+</body>
+</html>
