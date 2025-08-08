@@ -67,8 +67,9 @@
       height: 180px;
       border-radius: 16px;
       box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-      object-fit: cover;
+      object-fit: contain; /* Show full image without crop */
       object-position: center;
+      background-color: #f1f5f9; /* subtle background if image doesn't fill space */
     }
 
     .photo-caption {
