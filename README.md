@@ -1,4 +1,4 @@
-# Charity Finder
+# Charity Search
 
 This project was created by:
 
